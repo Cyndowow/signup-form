@@ -8,15 +8,37 @@
 }
 
 body {
-    display: flex;
     margin: 0;
     padding: 0;
-    flex-direction: row;
-    justify-content: flex-end;
 }
 
-.photo img {
-    display: inline-block;
-    max-width: 30%;
-    min-height: 100%;
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.leftside {
+    background-image: url('background.jpg');
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 40vh;
+}
+
+form {
+    height: 30vh;
+}
+
+.bottom {
+    height: 40vh;
 }
