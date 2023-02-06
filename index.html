@@ -10,8 +10,6 @@
 <body>
     <div class="main">
         <div class="leftside">
-            <div class="container">
-                <div class="transp"></div>
                 <div class="imgholder">
                     <img src="odin-lined.png" alt="Odin Logo">
                     <span>ODIN</span>
@@ -28,50 +26,54 @@
             <div class="top">
                 <h2>This is not a real online service! You know you need something like this in your life to help you realize
                     your deepest dreams. Sign up <em>now</em> to get started.</h2>
-                <h3>You <em>know</em> you want to.</h3>
+                <h2>You <em>know</em> you want to.</h2>
             </div>
         
             <div class="mid">
-                <h2>Let's do this!</h2>
-                <form action="#" method="get" class="form-main-div">
-                    <div class="form-divs">
-                        <div class="form-div">
-                            <label for="firstname">FIRST NAME</label>
-                            <input type="text" name="firstname" id="firstname" required>
+                <h2 class="midheader">Let's do this!</h2>
+                <form action="#" method="get">
+                    <div class="form-main-div">
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="firstname">FIRST NAME</label>
+                                <input type="text" name="firstname" id="firstname" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="pwd">PASSWORD</label>
+                                <input type="password" name="pwd" id="pwd" required>
+                                <p id="error"></p>
+                            </div>
                         </div>
-                        <div class="form-div">
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email" required>
-                        </div>
-                        <div class="form-div">
-                            <label for="pwd">PASSWORD</label>
-                            <input type="password" name="pwd" id="pwd" required>
-                        </div>
-                    </div>
-                    <div class="form-divs">
-                        <div class="form-div">
-                            <label for="lastname">LAST NAME</label>
-                            <input type="text" name="lastname" id="lastname" required>
-                        </div>
-                        <div class="form-div">
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" name="phone" id="phone" required>
-                        </div>
-                        <div class="form-div">
-                            <label for="pwd_confirm"> CONFIRM PASSWORD</label>
-                            <input type="password" name="pwd_confirm" id="pwd_confirm" required>
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="lastname">LAST NAME</label>
+                                <input type="text" name="lastname" id="lastname" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" name="phone" id="phone" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="pwd_confirm"> CONFIRM PASSWORD</label>
+                                <input type="password" name="pwd_confirm" id="pwd_confirm" required>
+                            </div>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="bottom">
-                <button type="submit">Create Account</button>
+                <button type="submit" id="create" class="btn-color">Create Account</button>
                 <div>
-                    <h3>Already have an account? <span><a href="./index.html"><b>Login</b></a></span></h3>
+                    <p>Already have an account? <span><a href="./index.html"><b>Log in</b></a></span></p>
                 </div>
             </div>
         </section>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
