@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.photo img {
+    display: inline-block;
+    max-width: 30%;
+    min-height: 100%;
+}
