@@ -25,6 +25,8 @@ body {
     width: 35vw;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .rightside {
@@ -35,7 +37,7 @@ body {
 }
 
 .top {
-    height: 35vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,4 +115,43 @@ label {
 a {
     text-decoration: none;
     color: #d35a3f;
+}
+
+.credit a {
+    color: black;
+    text-decoration: none;
+}
+
+.credit {
+    font-size: 24px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    top: 82vh;
+}
+
+.imgholder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.6;
+    position: relative;
+    top: 100%;
+}
+
+.imgholder img {
+    height: 10rem;
+}
+
+.imgholder span {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 10rem;
+    color: white;
 }
